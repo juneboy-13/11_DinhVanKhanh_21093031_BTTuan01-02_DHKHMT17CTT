@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .table.siu{
+            height: 300px;
+            font-size: 10px;
+            
+        } */
+        table, th, td{
+            border: 1px solid;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h2>A.</h2>
+    <table border="2" style="border-collapse: separate; width: 200px; height: 200px; border: 2px solid rgb(162, 123, 38);">
+        <tr>
+            <th>1</th>
+            <th colspan="4">2</th>
+        </tr>
+        <tr>
+            <th rowspan="3">3</th>
+            <th style="background-color: orange">4</th>
+            <th style="background-color: orange">5</th>
+            <th rowspan="2" colspan="2" style="background-color: yellow">6</th>
+        </tr>
+        <tr>
+            <th style="background-color: orange">7</th>
+            <th style="background-color: orange">8</th>
+        </tr>
+        <tr>
+            <th colspan="2" style="background-color: yellow">9</th>
+            <th style="background-color: yellow">10</th>
+        </tr>
+    </table >
+    <br>
+    <h2>B.</h2>
+    <table class="table siu" border="1" style="background-color: rgb(197, 150, 21);" align="left">
+        <tr>
+            <td>(1)</td>
+            <td>(2)</td>
+            <td>(3)</td>
+            <td style="width: 40%;">(4)</td>
+            <td>(5)</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3"><u></u>Part I</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="2">Chapter 1</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+            <td>Section A</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+            <td>Section B</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="2">Chapter 2</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+            <td>Section A</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+            <td>Section B</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3"><u></u>Part II</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="2">Chapter 3</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+            <td>Section A</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+            <td>Section B</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="2">Chapter 4</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+            <td>Section A</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+            <td>Section B</td>
+            <td></td>
+        </tr>
+    </table>
+    <table border="2" style="border-collapse: separate; margin: 30px;" align="left" >
+        <tr>
+            <td>6.470</td>
+            <td>6.470</td>
+        </tr>
+        <tr>
+            <td>6.470</td>
+            <td>6.470</td>
+        </tr>
+    </table>
+    <table border=2 style="border-collapse: separate; margin: 30px" align="left">
+        <tr>
+            <td>6.470</td>
+            <td>6.470</td>
+        </tr>
+        <tr>
+            <td rowspan="2">6.470</td>
+            <td>6.470</td>
+        </tr>
+        <tr>
+            <td>6.470</td>
+        </tr>
+    </table>
+    <br>
+    <h2>C.</h2>
+    <table>
+        <colgroup>
+            <col span="1" style="background-color: rgb(44, 236, 246);">
+            <col span="5" style="background-color: rgb(241, 179, 241);">
+        </colgroup>
+        <caption>NUMBERS 1-5 in VARIOUS LANGUAGES</caption>
+        <tr style="background-color: rgb(189, 85, 189);">
+            <th></th>
+            <th>English</th>
+            <th>Espanol</th>
+            <th>Francais</th>
+            <th>Italiano</th>
+            <th>Dentsch</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th>one</th>
+            <th>uno</th>
+            <th>un</th>
+            <th>uno</th>
+            <th>eins</th>
+        </tr>
+        <tr>
+            <th>2</th>
+            <th>two</th>
+            <th>dos</th>
+            <th>deux</th>
+            <th>due</th>
+            <th>zwei</th>
+        </tr>
+        <tr>
+            <th>3</th>
+            <th>three</th>
+            <th>tres</th>
+            <th>trois</th>
+            <th>tre</th>
+            <th>drei</th>
+        </tr>
+        <tr>
+            <th>4</th>
+            <th>four</th>
+            <th>uno</th>
+            <th>un</th>
+            <th>uno</th>
+            <th>eins</th>
+        </tr>
+        <tr>
+            <th>5</th>
+            <th>five</th>
+            <th>uno</th>
+            <th>un</th>
+            <th>uno</th>
+            <th>eins</th>
+        </tr>
+    </table>
+</body>
+</html>
